@@ -15,7 +15,7 @@ app.use('/expenses',expenseRouter)
 //app.use('/chat', chatRouter);
 connectDb();
 console.log("YT")
-
+//chat
 const port =  process.env.PORT_NO || 4000 ;
 app.listen(port , ()=>{
         console.log(`Server on :- ${port}`);
