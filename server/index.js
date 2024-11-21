@@ -14,6 +14,7 @@ app.use('/auth',userRouter)
 app.use('/expenses',expenseRouter)
 //app.use('/chat', chatRouter);
 connectDb();
+console.log("YT")
 
 const port =  process.env.PORT_NO || 4000 ;
 app.listen(port , ()=>{
